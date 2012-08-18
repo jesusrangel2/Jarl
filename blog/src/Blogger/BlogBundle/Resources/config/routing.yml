@@ -1,0 +1,17 @@
+BloggerBlogBundle_homepage:
+    pattern:  /
+    defaults: { _controller: BloggerBlogBundle:Page:index }
+    requirements:
+        _method:  GET
+        
+BloggerBlogBundle_nosotros:
+    pattern:  /nosotros
+    defaults: { _controller: BloggerBlogBundle:Page:nosotros }
+    requirements:
+        _method:  GET
+        
+BloggerBlogBundle_contacto:
+    pattern:  /contacto
+    defaults: { _controller: BloggerBlogBundle:Page:contacto }
+    requirements:
+        _method:  GET|POST

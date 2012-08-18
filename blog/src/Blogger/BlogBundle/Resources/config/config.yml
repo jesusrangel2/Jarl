@@ -1,0 +1,3 @@
+parameters:
+    # dirección de correo electrónico para contacto del Blogger
+    blogger_blog.emails.contact_email: leon_r2@hotmail.com
